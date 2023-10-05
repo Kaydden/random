@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url("https://media.istockphoto.com/vectors/the-interior-of-the-garage-workplace-of-the-master-on-car-repair-with-vector-id1071113334?k=6&m=1071113334&s=170667a&w=0&h=DB_aXPEE_P2cH5Stcf58a2z9H0-Ng_sGYWD2QzFLmOM=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-rendering: pixelated;
+    backdrop-filter: grayscale(60) blur(5px);
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.category {
+    display: flex;
+    border: 2px solid #ccc;
+    padding: 10px;
+    width: 220px;
+    min-height: 200px;
+    align-items: center;
+    flex-direction: row;
+}
+
+.draggable-item {
+    width: 40px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    image-rendering: pixelated;
+}
+
+.score {
+    font-size: 1.2em;
+    margin-top: 50px;
+}
+
+#category1 {
+    background-image: url("./images/lixo\ amarelo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: calc(20%);
+    image-rendering: pixelated;
+}
+
+#category2 {
+    background-image: url("./images/lixo\ azul.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: calc(20%);
+    image-rendering: pixelated;
+}
+
+#category3 {
+    background-image: url("./images/lixo\ vermelho.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: calc(20%);
+    image-rendering: pixelated;
+}
+
+#category4 {
+    background-image: url("./images/lixo\ marrom.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: calc(20%);
+    image-rendering: pixelated;
+}

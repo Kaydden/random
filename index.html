@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Arrume o lixo</title>
+</head>
+<body>
+    <h1>Ajude o Professor!!</h1>
+
+    <div class="container">
+        <div class="category" id="category1" ondrop="drop(event, 'category1')" ondragover="allowDrop(event)"></div>
+        <div class="category" id="category2" ondrop="drop(event, 'category2')" ondragover="allowDrop(event)"></div>
+        <div class="category" id="category3" ondrop="drop(event, 'category3')" ondragover="allowDrop(event)"></div>
+        <div class="category" id="category4" ondrop="drop(event, 'category4')" ondragover="allowDrop(event)"></div>
+    </div>
+
+    <img src="./images/lixos/banana.png" class="draggable-item" draggable="true" ondragstart="drag(event)" id="item4"/>
+    <img src="./images/lixos/bola de papel.png" class="draggable-item" draggable="true" ondragstart="drag(event)" id="item2"/>
+    <img src="./images/lixos/lata coca.png" class="draggable-item" draggable="true" ondragstart="drag(event)" id="item1"/>
+    <img src="./images/lixos/lata fanta.png" class="draggable-item" draggable="true" ondragstart="drag(event)" id="item1"/>
+    <img src="./images/lixos/saco de lixo.png" class="draggable-item" draggable="true" ondragstart="drag(event)" id="item3"/>
+    <img src="./images/lixos/maça.png" class="draggable-item" draggable="true" ondragstart="drag(event)" id="item4"/>
+    <img src="./images/lixos/jornal.png" class="draggable-item" draggable="true" ondragstart="drag(event)" id="item2"/>
+    <img src="./images/lixos/guarana jesus.png" class="draggable-item" draggable="true" ondragstart="drag(event)" id="item2"/>
+    <div class="score">Pontuação: <span id="score">0</span></div>
+
+</body>
+<script src="script.js"></script>
+</html>
